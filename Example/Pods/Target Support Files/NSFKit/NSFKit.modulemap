@@ -1,0 +1,6 @@
+module NSFKit {
+  umbrella header "NSFKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
