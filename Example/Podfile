@@ -5,11 +5,15 @@ target 'NSFKit_Example' do
   pod 'NSFKit', :path => '../'
 
   target 'NSFKit_Tests' do
-    inherit! :search_paths
+# https://github.com/CocoaPods/CocoaPods/issues/5383#issuecomment-220633840
+#    inherit! :search_paths
+    pod 'NSFKit', :path => '../'
 
-    
+    pod 'Quick', :inhibit_warnings => true
+    pod 'Nimble'
   end
 end
+
 
 post_install do |installer|
       

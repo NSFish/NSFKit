@@ -1,16 +1,27 @@
 PODS:
+  - Nimble (8.0.4)
   - NSFKit (0.1.0)
+  - Quick (2.1.0)
 
 DEPENDENCIES:
+  - Nimble
   - NSFKit (from `../`)
+  - Quick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   NSFKit:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
   NSFKit: 55b781c73f27bb7e45701a539b059b972e66de9f
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: 371fe232aa1018c6d2731a4c9dab99b74736678c
+PODFILE CHECKSUM: 71c26dc01ec003d875628040546ddb290a32b1c8
 
 COCOAPODS: 1.7.5

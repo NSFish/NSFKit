@@ -1,0 +1,6 @@
+module Pods_NSFKit_Example_NSFKit_Tests {
+  umbrella header "Pods-NSFKit_Example-NSFKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

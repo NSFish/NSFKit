@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		205DA73CC50542BCB973ECBE /* libPods-NSFKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFED0C4DA5BBCD99C816BA3 /* libPods-NSFKit_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		705E24A3232B991F00201F03 /* UINavigationControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E24A2232B991F00201F03 /* UINavigationControllerSpec.swift */; };
 		95DB8562C01448EF4014B2DB /* libPods-NSFKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3080271A2C8EBD7266BE3FC /* libPods-NSFKit_Example.a */; };
+		F56EE1D67164EF4A62C01DC5 /* libPods-NSFKit_Example-NSFKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA0CD10027586119991CF83 /* libPods-NSFKit_Example-NSFKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BFED0C4DA5BBCD99C816BA3 /* libPods-NSFKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSFKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA0CD10027586119991CF83 /* libPods-NSFKit_Example-NSFKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSFKit_Example-NSFKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3007130D44A71C1380BAAD32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4BBDFAD87EC727BE3DD61F30 /* NSFKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NSFKit.podspec; path = ../NSFKit.podspec; sourceTree = "<group>"; };
 		54D615ED673A50240D4ED5B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5A58F68BF827C646319D5D44 /* Pods-NSFKit_Example-NSFKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSFKit_Example-NSFKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-NSFKit_Example-NSFKit_Tests/Pods-NSFKit_Example-NSFKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NSFKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSFKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +42,12 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* NSFKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSFKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		705E24A2232B991F00201F03 /* UINavigationControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerSpec.swift; sourceTree = "<group>"; };
 		A8251FBD05606CE705BF847C /* Pods-NSFKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSFKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-NSFKit_Tests/Pods-NSFKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC855DD248D9BA2F62C2E2C7 /* Pods-NSFKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSFKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-NSFKit_Example/Pods-NSFKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C059F0986DA96954DBCDF80B /* Pods-NSFKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSFKit_Example.release.xcconfig"; path = "Target Support Files/Pods-NSFKit_Example/Pods-NSFKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C3080271A2C8EBD7266BE3FC /* libPods-NSFKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSFKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE518F842DE6AE793F455A9A /* Pods-NSFKit_Example-NSFKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSFKit_Example-NSFKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NSFKit_Example-NSFKit_Tests/Pods-NSFKit_Example-NSFKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD6718B95313AB2DF3CA6761 /* Pods-NSFKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSFKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NSFKit_Tests/Pods-NSFKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				205DA73CC50542BCB973ECBE /* libPods-NSFKit_Tests.a in Frameworks */,
+				F56EE1D67164EF4A62C01DC5 /* libPods-NSFKit_Example-NSFKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +78,8 @@
 				C059F0986DA96954DBCDF80B /* Pods-NSFKit_Example.release.xcconfig */,
 				DD6718B95313AB2DF3CA6761 /* Pods-NSFKit_Tests.debug.xcconfig */,
 				A8251FBD05606CE705BF847C /* Pods-NSFKit_Tests.release.xcconfig */,
+				CE518F842DE6AE793F455A9A /* Pods-NSFKit_Example-NSFKit_Tests.debug.xcconfig */,
+				5A58F68BF827C646319D5D44 /* Pods-NSFKit_Example-NSFKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -84,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				C3080271A2C8EBD7266BE3FC /* libPods-NSFKit_Example.a */,
-				1BFED0C4DA5BBCD99C816BA3 /* libPods-NSFKit_Tests.a */,
+				1AA0CD10027586119991CF83 /* libPods-NSFKit_Example-NSFKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,7 +139,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				705E24A2232B991F00201F03 /* UINavigationControllerSpec.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -298,7 +302,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NSFKit_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NSFKit_Example-NSFKit_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -321,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				705E24A3232B991F00201F03 /* UINavigationControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,8 +498,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD6718B95313AB2DF3CA6761 /* Pods-NSFKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = CE518F842DE6AE793F455A9A /* Pods-NSFKit_Example-NSFKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -509,6 +514,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSFKit_Example.app/NSFKit_Example";
@@ -517,8 +523,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8251FBD05606CE705BF847C /* Pods-NSFKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 5A58F68BF827C646319D5D44 /* Pods-NSFKit_Example-NSFKit_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
